@@ -143,6 +143,7 @@ class QrPainter extends CustomPainter {
     if (emptyColor != null) {
       canvas.drawColor(emptyColor, BlendMode.color);
     }
+    print('@@@@@@@@@@@@@@@@@@@@@');
 
     final paintMetrics = _PaintMetrics(
       containerSize: size.shortestSide,
