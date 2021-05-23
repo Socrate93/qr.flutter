@@ -202,6 +202,7 @@ class QrPainter extends CustomPainter {
       pixelPaint!.color = dataModuleStyle.color!;
     }
     Paint? emptyPixelPaint;
+    print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
     if (emptyColor != null) {
       emptyPixelPaint = _paintCache.firstPaint(QrCodeElement.codePixelEmpty);
       emptyPixelPaint!.color = emptyColor!;
